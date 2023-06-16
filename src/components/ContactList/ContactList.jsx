@@ -8,9 +8,8 @@ import { deleteContact} from 'redux/contactsApi';
 
 const ContactList =()=>{
 const dispatch = useDispatch()
-
 const visibleContact = useSelector(selectVisibleContacts);
-       
+  
 return(
     <>
     {visibleContact.length > 0 &&
